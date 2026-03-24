@@ -5,9 +5,9 @@
 ![Login page Image](./screenshots/login.PNG)
 ![index page Image](./screenshots/index.PNG)
 ![Create Post Image](./screenshots/create-post.PNG)
-![Create Post Image](./screenshots/post.PNG)
-![Create Post Image](./screenshots/dashboard.PNG)
-![Create Post Image](./screenshots/profile.PNG)
+![Post Image](./screenshots/post.PNG)
+![Dashboard Image](./screenshots/dashboard.PNG)
+![Profile Image](./screenshots/profile.PNG)
 
 
 ## Project Description
