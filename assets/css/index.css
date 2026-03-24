@@ -1,0 +1,85 @@
+@import url(./root.css);
+
+/* Start Hero Section */
+.hero{
+    margin-top: 50px;
+    padding: 0 30px;
+}
+.hero p{
+    margin-top: 10px;
+    color: var(--Text-Hover-Color);
+}
+.create-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--Primary-Color);
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+/* End Hero Section */
+/* Start Blogs Section */
+.blogs{
+    margin-top: 50px;
+    padding: 0 30px;
+}
+.blog{
+    width: 100%;
+    min-height: 200px;
+    max-height: fit-content;
+    background-color: var(--Boxs-Color);
+    padding: 15px;
+    border-radius: 10px;
+}
+.blog:not(:first-child){
+    margin-top: 10px;
+}
+.blog-header{
+    width: 100%;
+    max-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-header #title{
+    flex: 1;
+    word-wrap: break-word;
+}
+.blog-header #author-name{
+    color: var(--Text-Hover-Color);
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+.blog-body{
+    min-height: 100px;
+    color: var(--Text-Hover-Color);
+    border-bottom: 1px solid var(--Text-Hover-Color);
+    padding: 10px 0;
+}
+.blog-body #short-content{
+    line-height: 1.6;
+}
+.blog-footer{
+    height: 100%;
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    height: 50px;
+}
+#views{
+    color: var(--Text-Hover-Color);
+}
+.read-more{
+    padding: 8px 10px;
+    background-color: transparent;
+    border: 2px solid var(--Primary-Color);
+    border-radius: 10px;
+    color: var(--Primary-Color);
+    cursor: pointer;
+}
+/* End Blogs Section */

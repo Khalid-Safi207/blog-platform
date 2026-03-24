@@ -1,0 +1,74 @@
+:root{
+    --Primary-Color: #4a6cf7;
+    --Secondary-Color: #00da00;
+    --Danger-Color: crimson;
+    --Background-Color: #dfdfdf;
+    --Boxs-Color: #fff;
+    --Text-Hover-Color : #4d4d4d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: var(--Background-Color);
+    font-family: Arial;
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 60px;
+  aspect-ratio: 2;
+  --_g: no-repeat radial-gradient(circle closest-side,var(--Primary-Color) 90%,#0000);
+  background: 
+    var(--_g) 0%   50%,
+    var(--_g) 50%  50%,
+    var(--_g) 100% 50%;
+  background-size: calc(100%/3) 50%;
+  animation: l3 1s infinite linear;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+@keyframes l3 {
+    20%{background-position:0%   0%, 50%  50%,100%  50%}
+    40%{background-position:0% 100%, 50%   0%,100%  50%}
+    60%{background-position:0%  50%, 50% 100%,100%   0%}
+    80%{background-position:0%  50%, 50%  50%,100% 100%}
+}
+/* Start Header */
+header{
+    height: 82px;
+    background-color: var(--Boxs-Color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+.logo{
+    text-decoration: none;
+    color: var(--Primary-Color);
+    font-weight: 900;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+nav ul li:last-child a{
+    display: block;
+    padding: 10px;
+    border: 1px solid var(--Danger-Color);
+    border-radius: 10px;
+    color: var(--Danger-Color);
+}
+/* End Header */

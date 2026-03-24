@@ -1,0 +1,74 @@
+@import url(./root.css);
+
+.statistics {
+    padding: 0 30px;
+    margin: 50px 0px;
+}
+
+.statistics .boxs {
+    margin-top: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.posts-box,.comments-box,.views-box {
+    height: fit-content;
+    padding: 10px 0;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.posts-box {
+    background-color: var(--Primary-Color);
+}
+.comments-box{
+    background-color: blueviolet;
+}
+.views-box{
+    background-color: rgb(0, 196, 0);
+}
+#total-posts, #total-views, #total-comments{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recent-posts{
+    padding: 0 30px;
+}
+.all-posts{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: var(--Boxs-Color);
+    border-radius: 5px;
+}
+.post{
+    margin: 10px 0;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--Background-Color);
+}
+#title{
+    width: 50%;
+}
+#created-at{
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--Text-Hover-Color);
+}
+#edit,#delete,#view{
+    padding: 7px 12px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
