@@ -1,7 +1,7 @@
 # Blog Platform
 
 <!-- Add your first image here -->
-![Header Image](path/to/your-image1.png)
+![Register page Image](./screenshots/register.PNG)
 
 <!-- Add your second image here -->
 ![Demo Image](path/to/your-image2.png)
