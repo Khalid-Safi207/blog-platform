@@ -2,9 +2,13 @@
 
 <!-- Add your first image here -->
 ![Register page Image](./screenshots/register.PNG)
+![Login page Image](./screenshots/login.PNG)
+![index page Image](./screenshots/index.PNG)
+![Create Post Image](./screenshots/create-post.PNG)
+![Create Post Image](./screenshots/post.PNG)
+![Create Post Image](./screenshots/dashboard.PNG)
+![Create Post Image](./screenshots/profile.PNG)
 
-<!-- Add your second image here -->
-![Demo Image](path/to/your-image2.png)
 
 ## Project Description
 **Blog Platform** is a professional blogging platform developed using **PHP** that allows content management, creating posts, comments, and managing users securely and efficiently. Users can read articles and interact with them, while the backend API is secured using **JWT Authentication**.
