@@ -5,7 +5,7 @@
 ![Login page Image](./screenshots/login.PNG)
 ![index page Image](./screenshots/index.PNG)
 ![Create Post Image](./screenshots/create-post.PNG)
-![Post Image](./screenshots/post.PNG)
+![Post Image](./screenshots/post.png)
 ![Dashboard Image](./screenshots/dashboard.PNG)
 ![Profile Image](./screenshots/profile.PNG)
 
